@@ -23,7 +23,7 @@ class HelloWorldController extends AbstractController
             'user' => new class {
                 function isSubscribed()
                 {
-                    return false;
+                    return false; 
                 }
             },
         ]);
